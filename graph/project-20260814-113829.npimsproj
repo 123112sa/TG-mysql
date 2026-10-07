@@ -1,0 +1,242 @@
+{
+  "format": "npimsproj",
+  "version": "1.0.0",
+  "projectName": "project-20260814-113829",
+  "savedAt": "2026-08-14T03:38:31.202145+00:00",
+  "graph": {
+    "info": {
+      "version": "3",
+      "name": "",
+      "timestamp": 1786678710877,
+      "entrance": "子系统"
+    },
+    "content": {
+      "main": {
+        "sub": [
+          {
+            "id": "1ocigv3y4sgw0",
+            "_type": "sub",
+            "name": "子系统",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -480,
+                "y": -180
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "子系统"
+          }
+        ]
+      },
+      "子系统": {
+        "gm": [
+          {
+            "id": "tk76hcths3k0",
+            "_type": "gm",
+            "name": "原料",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -750,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "子系统",
+            "options": {},
+            "proto": {
+              "_uType": "SOURCE",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/SOURCE.png",
+                "type": "SOURCE",
+                "name": "原料",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/SOURCE.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "原料",
+              "imgsrc": "mahalec_icon_2/SOURCE.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "1zomocksjon40",
+            "_type": "gm",
+            "name": "加工装置",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -360,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "子系统",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "1oksiolz4klc0",
+            "_type": "gm",
+            "name": "产品",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 150,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "子系统",
+            "options": {},
+            "proto": {
+              "_uType": "DESTINATION",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/DESTINATION.png",
+                "type": "DESTINATION",
+                "name": "产品",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/DESTINATION.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "产品",
+              "imgsrc": "mahalec_icon_2/DESTINATION.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -690,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -420,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "子系统",
+              "gm",
+              "tk76hcths3k0"
+            ],
+            "destination": [
+              "子系统",
+              "gm",
+              "1zomocksjon40"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -300,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 90,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "子系统",
+              "gm",
+              "1zomocksjon40"
+            ],
+            "destination": [
+              "子系统",
+              "gm",
+              "1oksiolz4klc0"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

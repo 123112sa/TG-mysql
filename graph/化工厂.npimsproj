@@ -1,0 +1,2583 @@
+{
+  "format": "npimsproj",
+  "version": "1.0.0",
+  "projectName": "化工厂V3",
+  "savedAt": "2026-05-06T06:46:55.161199+00:00",
+  "graph": {
+    "info": {
+      "version": "3",
+      "name": "",
+      "timestamp": 1778050015150,
+      "entrance": "ZP"
+    },
+    "content": {
+      "main": {
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -470,
+              "y": -270,
+              "key": 8,
+              "name": "MXXFLC",
+              "id": "1hsz8nv2yin40",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -100,
+              "y": -383.33333333333337,
+              "key": 24,
+              "name": "MXXFLC",
+              "id": "11cnofxg5ys00",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "port",
+              "1hsz8nv2yin40"
+            ],
+            "destination": [
+              "XH23D",
+              "port",
+              "11cnofxg5ys00"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 400,
+              "y": -300,
+              "key": 8,
+              "name": "粗制硬质糖果",
+              "id": "1xcxdrjcrtnk0",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 740,
+              "y": -300,
+              "key": 24,
+              "name": "粗制硬质糖果",
+              "id": "4x9v32036qa0",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "port",
+              "1xcxdrjcrtnk0"
+            ],
+            "destination": [
+              "YX",
+              "port",
+              "4x9v32036qa0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 1240,
+              "y": -300,
+              "key": 8,
+              "name": "TXXHCC",
+              "id": "1ob8hhfa8e8w0",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 1580,
+              "y": -413.33333333333337,
+              "key": 24,
+              "name": "TXXHCC",
+              "id": "vtp410t859c0",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "YX",
+              "port",
+              "1ob8hhfa8e8w0"
+            ],
+            "destination": [
+              "JZ",
+              "port",
+              "vtp410t859c0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 2080,
+              "y": -330,
+              "key": 8,
+              "name": "液态硬质糖果",
+              "id": "3enqfkdg4hk0",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 2540,
+              "y": -360,
+              "key": 24,
+              "name": "液态硬质糖果",
+              "id": "1b9rttuvxsrk0",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "port",
+              "3enqfkdg4hk0"
+            ],
+            "destination": [
+              "ZP",
+              "port",
+              "1b9rttuvxsrk0"
+            ]
+          }
+        ],
+        "sub": [
+          {
+            "id": "asbcggiheow0",
+            "_type": "sub",
+            "name": "XH1D",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -720,
+                "y": -270
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "XH1D"
+          },
+          {
+            "id": "32ywd7fhzs00",
+            "_type": "sub",
+            "name": "XH23D",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 150,
+                "y": -300
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "XH23D"
+          },
+          {
+            "id": "1195xusfpods0",
+            "_type": "sub",
+            "name": "YX",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 990,
+                "y": -300
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "YX"
+          },
+          {
+            "id": "fm6i7l12e7k0",
+            "_type": "sub",
+            "name": "JZ",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 1830,
+                "y": -330
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "JZ"
+          },
+          {
+            "id": "6ptik3cq2y00",
+            "_type": "sub",
+            "name": "ZP",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 2790,
+                "y": -360
+              },
+              "width": 500,
+              "height": 500
+            },
+            "canvas": "main",
+            "sub": "ZP"
+          }
+        ]
+      },
+      "XH1D": {
+        "gm": [
+          {
+            "id": "1ve5fgeh34io0",
+            "_type": "gm",
+            "name": "流股",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -360,
+                "y": -270
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "1oozuw27uihs0",
+            "_type": "gm",
+            "name": "流股_1",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -360,
+                "y": -30
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "21xgkzk9cshs0",
+            "_type": "gm",
+            "name": "XH1D机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 0,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "XH1D",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "qxadp79y2io0",
+            "_type": "gm",
+            "name": "流股_2",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 390,
+                "y": -150
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -690,
+              "y": -270,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -390,
+              "y": -270,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "port",
+              "4x13ltna6140"
+            ],
+            "destination": [
+              "XH1D",
+              "gm",
+              "1ve5fgeh34io0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -690,
+              "y": -30,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -390,
+              "y": -30,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "port",
+              "l5lt82vvh340"
+            ],
+            "destination": [
+              "XH1D",
+              "gm",
+              "1oozuw27uihs0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -330,
+              "y": -270,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -60,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "gm",
+              "1ve5fgeh34io0"
+            ],
+            "destination": [
+              "XH1D",
+              "gm",
+              "21xgkzk9cshs0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -330,
+              "y": -30,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -60,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "gm",
+              "1oozuw27uihs0"
+            ],
+            "destination": [
+              "XH1D",
+              "gm",
+              "21xgkzk9cshs0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 60,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 360,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "gm",
+              "21xgkzk9cshs0"
+            ],
+            "destination": [
+              "XH1D",
+              "gm",
+              "qxadp79y2io0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 420,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 660,
+              "y": -150,
+              "key": 24,
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH1D",
+              "gm",
+              "qxadp79y2io0"
+            ],
+            "destination": [
+              "XH1D",
+              "port",
+              "1hsz8nv2yin40"
+            ]
+          }
+        ],
+        "port": [
+          {
+            "id": "4x13ltna6140",
+            "_type": "port",
+            "name": "JB",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -720,
+                "y": -270
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "type": "in"
+          },
+          {
+            "id": "l5lt82vvh340",
+            "_type": "port",
+            "name": "MXX",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -720,
+                "y": -30
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "type": "in"
+          },
+          {
+            "id": "1hsz8nv2yin40",
+            "_type": "port",
+            "name": "MXXFLC",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 690,
+                "y": -150
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH1D",
+            "type": "out"
+          }
+        ]
+      },
+      "XH23D": {
+        "gm": [
+          {
+            "id": "1yf95pcnedts0",
+            "_type": "gm",
+            "name": "流股_3",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -450,
+                "y": -330
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "e4b2687oy4w0",
+            "_type": "gm",
+            "name": "流股_4",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -450,
+                "y": 30
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "atzzztg30800",
+            "_type": "gm",
+            "name": "XH2D机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -30,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "1efwj8shv9wg0",
+            "_type": "gm",
+            "name": "XH3D机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 450,
+                "y": -150
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "fky3jrmr17k0",
+            "_type": "gm",
+            "name": "流股_5",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 180,
+                "y": -150
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "315f4zlryy80",
+            "_type": "gm",
+            "name": "流股_6",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 750,
+                "y": -150
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -720,
+              "y": -330,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -480,
+              "y": -330,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "port",
+              "11cnofxg5ys00"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "1yf95pcnedts0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -720,
+              "y": 30,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -480,
+              "y": 30,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "port",
+              "9vyt8okydk00"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "e4b2687oy4w0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -420,
+              "y": -330,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -90,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "1yf95pcnedts0"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "atzzztg30800"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -420,
+              "y": 30,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -90,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "e4b2687oy4w0"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "atzzztg30800"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 30,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 150,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "atzzztg30800"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "fky3jrmr17k0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 210,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 390,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "fky3jrmr17k0"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "1efwj8shv9wg0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 510,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 720,
+              "y": -150,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "1efwj8shv9wg0"
+            ],
+            "destination": [
+              "XH23D",
+              "gm",
+              "315f4zlryy80"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 780,
+              "y": -150,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 1080,
+              "y": -150,
+              "key": 24,
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "XH23D",
+              "gm",
+              "315f4zlryy80"
+            ],
+            "destination": [
+              "XH23D",
+              "port",
+              "1xcxdrjcrtnk0"
+            ]
+          }
+        ],
+        "port": [
+          {
+            "id": "11cnofxg5ys00",
+            "_type": "port",
+            "name": "MXXFLC",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -750,
+                "y": -330
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "type": "in"
+          },
+          {
+            "id": "9vyt8okydk00",
+            "_type": "port",
+            "name": "LDX",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -750,
+                "y": 30
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "type": "in"
+          },
+          {
+            "id": "1xcxdrjcrtnk0",
+            "_type": "port",
+            "name": "粗制硬质糖果",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 1110,
+                "y": -150
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "XH23D",
+            "type": "out"
+          }
+        ]
+      },
+      "YX": {
+        "gm": [
+          {
+            "id": "87urqefdx5g0",
+            "_type": "gm",
+            "name": "YX机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -330,
+                "y": -240
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "YX",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "duxn95ph9zk",
+            "_type": "gm",
+            "name": "流股_7",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -630,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "YX",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "33oawf2giki0",
+            "_type": "gm",
+            "name": "流股_8",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -60,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "YX",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -810,
+              "y": -240,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -660,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "YX",
+              "port",
+              "4x9v32036qa0"
+            ],
+            "destination": [
+              "YX",
+              "gm",
+              "duxn95ph9zk"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -600,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -390,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "YX",
+              "gm",
+              "duxn95ph9zk"
+            ],
+            "destination": [
+              "YX",
+              "gm",
+              "87urqefdx5g0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -270,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -90,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "YX",
+              "gm",
+              "87urqefdx5g0"
+            ],
+            "destination": [
+              "YX",
+              "gm",
+              "33oawf2giki0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -30,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 210,
+              "y": -240,
+              "key": 24,
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "YX",
+              "gm",
+              "33oawf2giki0"
+            ],
+            "destination": [
+              "YX",
+              "port",
+              "1ob8hhfa8e8w0"
+            ]
+          }
+        ],
+        "port": [
+          {
+            "id": "4x9v32036qa0",
+            "_type": "port",
+            "name": "粗制硬质糖果",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -840,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "YX",
+            "type": "in"
+          },
+          {
+            "id": "1ob8hhfa8e8w0",
+            "_type": "port",
+            "name": "TXXHCC",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 240,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "YX",
+            "type": "out"
+          }
+        ]
+      },
+      "JZ": {
+        "gm": [
+          {
+            "id": "1gxe2vhiq4zk0",
+            "_type": "gm",
+            "name": "JZ机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -240,
+                "y": -60
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "6j9ozp8sp3s0",
+            "_type": "gm",
+            "name": "XD机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 90,
+                "y": -60
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "18b06raju9c00",
+            "_type": "gm",
+            "name": "SH机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 420,
+                "y": -60
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "1elzinzg7mlc0",
+            "_type": "gm",
+            "name": "流股_9",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -660,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "63ss57y4mnw0",
+            "_type": "gm",
+            "name": "流股_10",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -660,
+                "y": 90
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "1zmpcvh5qxc00",
+            "_type": "gm",
+            "name": "流股_11",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 750,
+                "y": -60
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -870,
+              "y": 90,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -690,
+              "y": 90,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "port",
+              "1d98w1dlfa800"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "63ss57y4mnw0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -810,
+              "y": -240,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -690,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "port",
+              "vtp410t859c0"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "1elzinzg7mlc0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -630,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -300,
+              "y": -60,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "1elzinzg7mlc0"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "1gxe2vhiq4zk0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -630,
+              "y": 90,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -300,
+              "y": -60,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "63ss57y4mnw0"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "1gxe2vhiq4zk0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -180,
+              "y": -60,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 30,
+              "y": -60,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "1gxe2vhiq4zk0"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "6j9ozp8sp3s0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 150,
+              "y": -60,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 360,
+              "y": -60,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "6j9ozp8sp3s0"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "18b06raju9c00"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 480,
+              "y": -60,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 720,
+              "y": -60,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "18b06raju9c00"
+            ],
+            "destination": [
+              "JZ",
+              "gm",
+              "1zmpcvh5qxc00"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": 780,
+              "y": -60,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 1020,
+              "y": -60,
+              "key": 24,
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "JZ",
+              "gm",
+              "1zmpcvh5qxc00"
+            ],
+            "destination": [
+              "JZ",
+              "port",
+              "3enqfkdg4hk0"
+            ]
+          }
+        ],
+        "port": [
+          {
+            "id": "vtp410t859c0",
+            "_type": "port",
+            "name": "TXXHCC",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -840,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "type": "in"
+          },
+          {
+            "id": "1d98w1dlfa800",
+            "_type": "port",
+            "name": "YLSN",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -900,
+                "y": 90
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "type": "in"
+          },
+          {
+            "id": "3enqfkdg4hk0",
+            "_type": "port",
+            "name": "液态硬质糖果",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 1050,
+                "y": -60
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "JZ",
+            "type": "out"
+          }
+        ]
+      },
+      "ZP": {
+        "gm": [
+          {
+            "id": "1wp0lylrti740",
+            "_type": "gm",
+            "name": "ZP机",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -300,
+                "y": -240
+              },
+              "width": 120,
+              "height": 120
+            },
+            "canvas": "ZP",
+            "options": {},
+            "proto": {
+              "_uType": "PROCESS",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/CDU.png",
+                "type": "PROCESS",
+                "name": "加工装置",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/CDU.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ]
+                }
+              },
+              "name": "加工装置",
+              "imgsrc": "mahalec_icon_2/CDU.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ]
+            }
+          },
+          {
+            "id": "1sylw3ycyg800",
+            "_type": "gm",
+            "name": "流股_12",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -60,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "ZP",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "ij3z8oau1xk0",
+            "_type": "gm",
+            "name": "流股_13",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -570,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "ZP",
+            "options": {},
+            "proto": {
+              "_uType": "STREAM",
+              "image": {},
+              "raw": {
+                "cover": "mahalec_icon_2/STREAM.png",
+                "type": "STREAM",
+                "name": "流股",
+                "shape": {
+                  "imgsrc": "mahalec_icon_2/STREAM.png",
+                  "points": [
+                    0,
+                    8,
+                    16,
+                    24
+                  ],
+                  "width": 20,
+                  "height": 20
+                }
+              },
+              "name": "流股",
+              "imgsrc": "mahalec_icon_2/STREAM.png",
+              "points": [
+                0,
+                8,
+                16,
+                24
+              ],
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "connector": [
+          {
+            "type": 1,
+            "start": {
+              "x": -240,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -90,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "ZP",
+              "gm",
+              "1wp0lylrti740"
+            ],
+            "destination": [
+              "ZP",
+              "gm",
+              "1sylw3ycyg800"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -30,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": 120,
+              "y": -240,
+              "key": 24,
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "ZP",
+              "gm",
+              "1sylw3ycyg800"
+            ],
+            "destination": [
+              "ZP",
+              "port",
+              "p7h6xii786o0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -750,
+              "y": -240,
+              "key": 8,
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -600,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "ZP",
+              "port",
+              "1b9rttuvxsrk0"
+            ],
+            "destination": [
+              "ZP",
+              "gm",
+              "ij3z8oau1xk0"
+            ]
+          },
+          {
+            "type": 1,
+            "start": {
+              "x": -540,
+              "y": -240,
+              "key": 8,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "end": {
+              "x": -360,
+              "y": -240,
+              "key": 24,
+              "fillStyle": "#ffffff30",
+              "owner": null,
+              "active": true
+            },
+            "info": {
+              "controllers": []
+            },
+            "style": {
+              "strokeStyle": "#333",
+              "fillStyle": "#333",
+              "lineWidth": 4
+            },
+            "source": [
+              "ZP",
+              "gm",
+              "ij3z8oau1xk0"
+            ],
+            "destination": [
+              "ZP",
+              "gm",
+              "1wp0lylrti740"
+            ]
+          }
+        ],
+        "port": [
+          {
+            "id": "1b9rttuvxsrk0",
+            "_type": "port",
+            "name": "液态硬质糖果",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": -780,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "ZP",
+            "type": "in"
+          },
+          {
+            "id": "p7h6xii786o0",
+            "_type": "port",
+            "name": "硬质糖果成品",
+            "desc": "",
+            "shape": {
+              "center": {
+                "x": 150,
+                "y": -240
+              },
+              "width": 60,
+              "height": 60
+            },
+            "canvas": "ZP",
+            "type": "out"
+          }
+        ]
+      }
+    }
+  }
+}
